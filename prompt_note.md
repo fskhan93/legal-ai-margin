@@ -1,5 +1,22 @@
 # Prompt note
 
+## Prompt excerpt (valuation cases)
+
+> Filter for companies where the deal value is announced. Let's calculate our bear, base, and bull case based on multiples: (Implied EV/ARR \*38 (our gross margin))/Gross Margin at Exit. Once you calculate the multiples, set the cases: bear about 5x, base about 8x and bull about 15x, already lowered for our 38% margin. Save in GitHub repo with the COMP ids behind each case. Also, read the margin summary alongside the crunchbase so the revenue base ties back to it.
+
+## Comparable list checked against the Implied EV/ARR column
+
+| Comp | Deal value | Deal value ÷ est. ARR | Implied EV/ARR in sheet | Used |
+|---|---|---|---|---|
+| COMP-01 Casetext | $650M announced | 29.5x | 29.5x | Yes, listed but in no case |
+| COMP-02 Lexion | $165M announced | 13.75x | 13.8x | Base |
+| COMP-03 Seal Software | $188M announced | 10.44x | 10.4x | Bear |
+| COMP-08 vLex | $1,000M announced | 10.0x | 10.0x | Bear |
+| COMP-04, 05, 06, 07 | Undisclosed | — | blank | Excluded |
+
+- **Filter:** the four comps with an announced deal value are exactly the four that have an Implied EV/ARR in the sheet, so nothing was dropped or added by the filter.
+- **Multiples:** each Implied EV/ARR in the sheet matches deal value ÷ estimated ARR at exit, within rounding.
+
 ## Checked
 
 - The monthly summary in `Legal_AI_Monthly_Margins.xlsx`: Total Cost, Revenue, Gross Margin, Reported Margin and Model Cost per Revenue $ for Nov 2025 – Oct 2026.
